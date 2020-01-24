@@ -5,6 +5,8 @@ requires 'Mojolicious', '==5.47';
 requires 'Locale::Simple', '==0.016';
 requires 'DateTime::Format::ISO8601', '==0.08';
 requires 'MojoX::Plugin::Hook::BeforeRendered', '==0.30';
+requires 'Mojo::Redis', '==1.02'; # Needs to be before MojoX::Plugin::AnyCache
+requires 'MojoX::Plugin::AnyCache', '==0.33';
 requires 'MojoX::Security::Session', '==0.36';
 requires 'CH::MojoX::Administration::Plugin', '==0.32';
 requires 'CH::MojoX::Plugin::API', '==0.40';
@@ -17,9 +19,7 @@ requires 'MojoX::Log::Declare', '==0.32';
 requires 'MojoX::Renderer::Xslate', '==0.092';
 requires 'JSON::WebEncryption', '==0.06';
 requires 'Crypt::Rijndael', '==1.12';
-requires 'Mojo::Redis', '==1.02'; # Needs to be before MojoX::Plugin::AnyCache
 requires 'MojoX::Plugin::Statsd', '==0.30';
-requires 'MojoX::Plugin::AnyCache', '==0.33';
 requires 'Protocol::Redis::XS', '==0.05';
 requires 'Readonly', '==2.00';
 requires 'Log::Log4perl::Appender::Fluent', '==0.04';

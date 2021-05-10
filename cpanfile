@@ -22,5 +22,8 @@ requires 'Crypt::Rijndael', '==1.12';
 requires 'MojoX::Plugin::Statsd', '==0.30';
 requires 'Protocol::Redis::XS', '==0.05';
 requires 'Readonly', '==2.00';
+requires 'Data::MessagePack::Stream', '==1.04';
+# transient dep of Fluent::Logger which is a transient dep of Log::Log4perl::Appender::Fluent and breaks with 1.0.5
+requires 'Fluent::Logger', '==0.28';
 requires 'Log::Log4perl::Appender::Fluent', '==0.04';
 test_requires 'CH::Test', '==0.31';

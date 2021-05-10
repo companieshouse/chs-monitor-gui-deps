@@ -13,7 +13,7 @@ requires 'CH::MojoX::Plugin::API', '==0.40';
 requires 'CH::MojoX::Plugin::Config', '==0.31';
 requires 'CH::MojoX::Plugin::Exception', '==0.31';
 requires 'CH::MojoX::Plugin::Xslate', '==0.33';
-requires 'CH::MojoX::SignIn::Plugin', '==0.50';
+requires 'CH::MojoX::SignIn::Plugin', '==0.51';
 requires 'CH::MojoX::Error::Renderer', '==0.32';
 requires 'MojoX::Log::Declare', '==0.32';
 requires 'MojoX::Renderer::Xslate', '==0.092';

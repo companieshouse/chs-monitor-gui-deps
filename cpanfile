@@ -1,3 +1,4 @@
+requires 'Devel::Declare', '==0.006019';
 requires 'Log::Log4perl', '==1.47';
 requires 'CH::MojoX::UserPermissions', '==0.31';
 requires 'AnyEvent', '==7.12';

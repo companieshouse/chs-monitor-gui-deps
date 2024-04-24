@@ -20,6 +20,7 @@ requires 'MojoX::Log::Declare', '==0.32';
 requires 'MojoX::Renderer::Xslate', '==0.092';
 requires 'JSON::WebEncryption', '==0.06';
 requires 'Crypt::Rijndael', '==1.12';
+requires 'Data::UUID', '==1.219';
 requires 'MojoX::Plugin::Statsd', '==0.30';
 requires 'Protocol::Redis::XS', '==0.05';
 requires 'Readonly', '==2.00';

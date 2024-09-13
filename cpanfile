@@ -8,7 +8,7 @@ requires 'DateTime::Format::ISO8601', '==0.08';
 requires 'MojoX::Plugin::Hook::BeforeRendered', '==0.30';
 requires 'Mojo::Redis', '==1.02'; # Needs to be before MojoX::Plugin::AnyCache
 requires 'MojoX::Plugin::AnyCache', '==0.33';
-requires 'MojoX::Security::Session', '==0.36';
+requires 'MojoX::Security::Session', '==0.41';
 requires 'CH::MojoX::Administration::Plugin', '==0.32';
 requires 'CH::MojoX::Plugin::API', '==0.40';
 requires 'CH::MojoX::Plugin::Config', '==0.31';

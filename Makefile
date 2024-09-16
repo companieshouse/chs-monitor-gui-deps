@@ -5,7 +5,7 @@ local           := ./local
 smartpan_url    := https://smartpan.ci.platform.aws.chdev.org
 
 getpan_cpus     := 1
-getpan_loglevel := TRACE
+getpan_loglevel := INFO
 getpan_cachedir := ./.gopancache
 getpan_args     := -cpus $(getpan_cpus) -cachedir=$(getpan_cachedir) -smart $(smartpan_url) -loglevel=$(getpan_loglevel) -nodepdump -nocpan -nobackpan -metacpan
 
